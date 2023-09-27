@@ -1,0 +1,1 @@
+package com.example.todolist.ui.`ui-state`import com.example.todolist.model.ToDo// classe pour faire interargir les states de chaque uidata class ToDoListState(    val textFieldValue: String = "",    val percentDone: Int = 100,    val items: List<ToDo> = listOf())
